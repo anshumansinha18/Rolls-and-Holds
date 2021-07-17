@@ -76,7 +76,7 @@ const updateScoreAtHold = function()
       player0CurrScore = 0;
       current_0.textContent = '0';
 
-      if(Number(score_0.textContent) >= 10)
+      if(Number(score_0.textContent) >= 100)
       {
           player_0.classList.add('player--winner');
           dice.classList.add('hidden');
@@ -91,7 +91,7 @@ const updateScoreAtHold = function()
       score_1.textContent = Number(score_1.textContent)+Number(current_1.textContent);
       current_1.textContent = '0';
       player1CurrScore = 0;
-      if(Number(score_1.textContent) >= 10)
+      if(Number(score_1.textContent) >= 100)
       {
           player_1.classList.add('player--winner');
           dice.classList.add('hidden');
